@@ -1,0 +1,130 @@
+
+body {
+    background-image: url('./assets/BG_LIGHT.JPG'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Couvrir toute la page */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    background-attachment: fixed; /* Optionnel : Fixer l'arrière-plan */
+}
+
+
+
+.custom-text-large {
+    font-size: 20px; /* Ajustez la taille selon vos besoins */
+}
+
+
+.background_light {
+  background-image: url('./assets/BG_LIGHT.JPG');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background_dark {
+    background-image: url('./assets/BG_DARK.JPG');
+    background-size: cover;
+    color: white;
+}
+
+.bg_photograph {
+    background-image: url('./assets/Photographer.jpeg');
+    background-size: cover;
+}
+
+.image-section {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.form-section {
+    padding: 50px 0;
+}
+
+.form-control {
+    background-color: #ffd460;
+    border: 1px solid #ffd460;
+    margin-bottom: 20px;
+    height: 60px;
+    color: #333;
+}
+
+.form-control::placeholder {
+    color: #333;
+}
+
+.form-control:focus {
+    border-color: #333;
+    box-shadow: none;
+}
+
+/* .grid-image */
+.grid-image {
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-image {
+    width: 300px;  /* Largeur fixe de 500px */
+    height: 300px; /* Hauteur fixe de 500px */
+    object-fit: cover; /* Garde l'aspect ratio tout en remplissant l'espace */
+    border-radius: 5px; /* Bordures arrondies (optionnel) */
+}
+
+
+
+
+.menu-background {
+    background-image: url('chemin_vers_votre_image.jpg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Assurez-vous que l'image couvre toute la zone */
+    background-position: center; /* Centrez l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+}
+
+
+.custom-link {
+    background-color: #000; /* Remplacez par la couleur de votre choix */
+    color: #fff; /* Couleur du texte */
+    padding: 8px 16px; /* Taille du padding */
+    border-radius: 50px; /* Bordures arrondies */
+    backdrop-filter: blur(5px); /* Flou d'arrière-plan */
+    text-decoration: none; /* Enlève le soulignement des liens */
+}
+
+
+
+.custom-link:hover {
+    color: #ddd; /* Couleur du texte au survol */
+    background-color: #333; /* Couleur de fond au survol */
+}
+
+.transparent-black-background {
+    background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% d'opacité */
+    padding: 15px; /* Ajustez le padding selon vos besoins */
+    border-radius: 10px; /* Coins arrondis */
+}
+
